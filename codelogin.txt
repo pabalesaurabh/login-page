@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="wrap"> 
+<header>
+    <img src="images/fingerprint.jpg" alt="login" >
+</header>
+
+<main>
+    <h1>Your name</h1>
+    <input type="text" name="Your name" placeholder="">
+    <h2>E-mail address</h2>
+    <input type="email" name="email address" placeholder="">
+    <h3>Password</h3>
+     <input type="password" name="password" placeholder=""></br>
+     
+     <button type="button">Sign up</button>
+     <p>By creating an account,you agree and accept </br>our <a href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank">Terms</a> and <a href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">Privacy Policy.</a></p>
+    </br>
+    <p><H1>Already have an account? <a href="">Log in?.</a>
+    </H1>
+</p> 
+    </main>
+      
+
+</div>
+</body>
+</html>
+
+
+
+CSS
+body{
+    background-color: rgb(53, 45, 47);
+    background-image: url("images/pexels-pixabay-531880.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+}
+
+   
+.wrap{
+    width: 500px;
+    margin-right: 500px;
+    margin-left: 520px;
+    margin-top: 0%;
+    background: #5A3F37;
+    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);
+    background: linear-gradient(to right, #2C7744, #5A3F37);
+    border-radius: 30px;
+    text-align: center;
+    
+}
+header {
+    
+    width: 500px;
+    height:90px;
+    margin-top: 90px;
+    text-align: center;
+    
+
+
+}
+main {
+
+    
+    width: 500px;
+    height: 450px;
+
+
+}
+
+footer{
+    width: 500px;
+    height:30px;
+
+}
+
+.wrap input{
+
+    border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+ 
+h1{
+    font-size: 22px;
+    color: rgb(218, 186, 186);
+    object-position: center;
+    scroll-padding-left: 50px;
+    
+}
+
+.wrap input[type="submit"]{
+ width: 300px;
+ color:rgb(22, 21, 22);
+ font-size: 20px;
+
+}
+
+h2{
+    font-size: 22px;
+    color: rgb(218, 186, 186);
+    object-position: center;
+    scroll-padding-left: 50px;
+}
+
+h3{
+    font-size: 22px;
+    color: rgb(218, 186, 186);
+    object-position: center;
+    scroll-padding-left: 50px;
+}
+
+a{
+    color: rgb(218, 186, 186);
+}
+p{
+    color:  rgb(218, 186, 186);
+}
+button{
+    size: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.wrap img{
+    border-radius: 100%;
+    opacity: 0.8;
+}
